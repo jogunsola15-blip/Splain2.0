@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#0b0c10">
+    <meta name="description" content="John’s developer portfolio: interfaces, systems, and technical experiments.">
+    <title>Splain 2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body><a class="skip" href="#work">Skip to work</a>
+    <header><a class="brand" href="#">Splain v2<span>®</span></a>
+        <nav aria-label="Main navigation"><a class="active" href="#work">Work</a><a href="#about">About</a><a
+                href="https://github.com/jogunsola15-blip" target="_blank" rel="noopener">GitHub</a></nav><span
+            class="location">England, UK <span id="clock"></span></span>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="eyebrow"><span class="line"></span> DEVELOPER / INTERFACES & SYSTEMS</div>
+            <h1>Turning curiosity<br>into <span class="serif">things that work.</span></h1>
+            <div class="intro-bottom">
+                <p>From the interface to every layer underneath.<br>I explore technology and care about how it feels to
+                    use.</p><a class="text-link" href="#work">Explore work</a>
+            </div>
+            <div class="index-note">PORTFOLIO — 2026 <span>01 / SELECTED WORK</span></div>
+        </section>
+        <section id="work" class="work">
+            <div class="section-top">
+                <h2>Selected work<span> / 04</span></h2>
+                <div class="filters" aria-label="Filter projects"><button class="selected" data-filter="all"
+                        aria-pressed="true">All</button><button data-filter="web" aria-pressed="false">Web
+                        apps</button><button data-filter="system" aria-pressed="false">Systems</button><button
+                        data-filter="experiment" aria-pressed="false">Experiments</button></div>
+            </div>
+            <div class="projects">
+                <article class="project featured" data-category="web"><button class="project-open" data-project="0"
+                        aria-label="View Orbit project details">
+                        <div class="preview orbit">
+                            <div class="mini-top"><span class="mini-logo">◉ orbit</span><span class="mini-dim">Workspace
+                                    / Overview</span><span class="avatar">A</span></div>
+                            <div class="orbit-body">
+                                <div class="sidebar"><span class="side-active">▦ Overview</span><span>◷
+                                        Activity</span><span>▤ Projects</span><span>⌘ Settings</span></div>
+                                <div class="dashboard">
+                                    <div class="dash-title">Clarity in every metric.<span>This week</span></div>
+                                    <div class="metrics">
+                                        <div><small>Active users</small><strong>2,846</strong><em>+18.6%</em></div>
+                                        <div><small>Requests</small><strong>128k</strong><em>+24.2%</em></div>
+                                        <div><small>Avg.
+                                                latency</small><strong>42<span>ms</span></strong><em>−12.4%</em></div>
+                                    </div>
+                                    <div class="chart-label">Request trend <span>Last 7 days</span></div><svg
+                                        class="chart" viewBox="0 0 550 120" role="img"
+                                        aria-label="Sample chart showing rising request volume">
+                                        <defs>
+                                            <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+                                                <stop stop-color="#b3f176" stop-opacity=".3" />
+                                                <stop offset="1" stop-color="#b3f176" stop-opacity="0" />
+                                            </linearGradient>
+                                        </defs>
+                                        <path d="M0 35H550M0 75H550M0 115H550" stroke="#ffffff0b" />
+                                        <path
+                                            d="M0 108L45 93L90 99L135 58L180 72L225 60L270 69L315 30L360 44L405 23L450 34L505 7L550 14V120H0Z"
+                                            fill="url(#fill)" />
+                                        <path
+                                            d="M0 108L45 93L90 99L135 58L180 72L225 60L270 69L315 30L360 44L405 23L450 34L505 7L550 14"
+                                            fill="none" stroke="#b3f176" stroke-width="2" />
+                                    </svg>
+                                    <div class="chart-days">
+                                        <span>MON</span><span>WED</span><span>FRI</span><span>SUN</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div><span class="project-number">01 / WEB APPLICATION</span>
+                                <h3>Orbit <span>Analytics workspace</span></h3>
+                                <p>Complex data, shaped into a workspace you can understand at a glance.</p>
+                            </div><span class="open-symbol">＋</span>
+                        </div>
+                        <div class="tags"><span>React</span><span>TypeScript</span><span>Data visualisation</span><span
+                                class="year">2026</span></div>
+                    </button></article>
+                <article class="project" data-category="system"><button class="project-open" data-project="1"
+                        aria-label="View Relay project details">
+                        <div class="preview relay">
+                            <div class="terminal-top"><i></i><i></i><i></i><span>relay — live stream</span></div>
+                            <div class="terminal">
+                                <p><span class="muted">$</span> relay watch --live</p>
+                                <p class="green">✓ connected to local gateway</p>
+                                <p><span class="muted">12:04:21</span> <b>GET</b> /api/events <span
+                                        class="green">200</span> <span class="muted">12ms</span></p>
+                                <p><span class="muted">12:04:22</span> <b>GET</b> /health <span class="green">200</span>
+                                    <span class="muted">8ms</span></p>
+                                <p><span class="muted">12:04:23</span> <b>POST</b> /api/ingest <span
+                                        class="green">201</span> <span class="muted">24ms</span></p>
+                                <p><span class="muted">12:04:24</span> <b>GET</b> /api/events <span
+                                        class="green">200</span> <span class="muted">11ms</span></p>
+                                <p class="terminal-status"><span class="green">▍</span> listening for events…</p>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div><span class="project-number">02 / DEVELOPER TOOL</span>
+                                <h3>Relay <span>Live event monitoring</span></h3>
+                                <p>A clearer picture of every event in your system.</p>
+                            </div><span class="open-symbol">＋</span>
+                        </div>
+                        <div class="tags"><span>Go</span><span>SSE</span><span>Self-hosted</span><span
+                                class="year">2026</span></div>
+                    </button></article>
+                <article class="project" data-category="experiment"><button class="project-open" data-project="2"
+                        aria-label="View Field project details">
+                        <div class="preview field"><canvas id="field" aria-label="Interactive particle field"></canvas>
+                            <div class="field-label">FIELD / 003<span>Move your cursor to explore</span></div>
+                        </div>
+                        <div class="project-info">
+                            <div><span class="project-number">03 / CREATIVE CODING</span>
+                                <h3>Field <span>Interactive particle study</span></h3>
+                                <p>Exploring expression through mathematics, motion, and interaction.</p>
+                            </div><span class="open-symbol">＋</span>
+                        </div>
+                        <div class="tags"><span>Canvas</span><span>JavaScript</span><span>Generative visuals</span><span
+                                class="year">2025</span></div>
+                    </button></article>
+                <article class="project" data-category="web"><button class="project-open" data-project="3"
+                        aria-label="View Index project details">
+                        <div class="preview index">
+                            <div class="index-nav">index<span>Your reading space</span></div>
+                            <div class="index-content"><small>YOUR PERSONAL LIBRARY</small>
+                                <h4>Keep the ideas<br>worth <em>revisiting.</em></h4>
+                                <div class="bookmark"><span>01</span>
+                                    <div>Designing for the quiet moments<small>Design · 6 min read</small></div>
+                                    <span>↗</span>
+                                </div>
+                                <div class="bookmark"><span>02</span>
+                                    <div>The beauty of small systems<small>Systems · 8 min read</small></div>
+                                    <span>↗</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div><span class="project-number">04 / DIGITAL EXPERIENCE</span>
+                                <h3>Index <span>Personal reading library</span></h3>
+                                <p>A quiet, focused home for ideas worth keeping.</p>
+                            </div><span class="open-symbol">＋</span>
+                        </div>
+                        <div class="tags"><span>Next.js</span><span>Interface design</span><span>Reading
+                                experience</span><span class="year">2025</span></div>
+                    </button></article>
+            </div>
+            <p class="demo-note">These are sample projects. Replace them with your own work and results.</p>
+        </section>
+        <section id="about" class="about">
+            <div><span class="eyebrow">02 / ABOUT</span>
+                <h2>The interface matters.<br>So does <span class="serif">what’s underneath.</span></h2>
+            </div>
+            <div class="about-copy">
+                <p>I’m John, a developer based in England, UK. From web interfaces to self-hosted services, I enjoy
+                    breaking problems down and bringing the pieces together into clear, usable experiences.</p>
+                <p class="muted">This portfolio leaves room for project stories, technical decisions, and interactive
+                    demonstrations. The details behind real work give each idea its substance.</p>
+                <div class="skill-list">
+                    <div><span>Frontend development</span>
+                        <p>React / TypeScript / Next.js</p>
+                    </div>
+                    <div><span>Systems & tools</span>
+                        <p>Go / Docker / Self-hosted services</p>
+                    </div>
+                    <div><span>Exploration & experiments</span>
+                        <p>Data visualisation / Canvas / Technical research</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="closing"><span class="eyebrow">KEEP EXPLORING</span>
+            <h2>The next idea is <span class="serif">taking shape.</span></h2>
+            <div>
+                <p>More projects and ongoing experiments.</p><a class="github-link" href="https://github.com/john10124"
+                    target="_blank" rel="noopener">Find me on GitHub</a>
+            </div>
+        </section>
+    </main>
+    <footer><span>© 2026 John</span><span>Start with curiosity. Finish with care.</span><a href="#">Back to top</a>
+    </footer>
+    <dialog id="project-dialog">
+        <div class="dialog-head"><span id="dialog-label"></span><button id="close-dialog"
+                aria-label="Close project details">✕</button></div>
+        <h2 id="dialog-title"></h2>
+        <p id="dialog-description"></p>
+        <div id="dialog-body"></div>
+        <div class="dialog-foot">Sample case study · Replace the content and stack</div>
+    </dialog>
+</body>
+
+</html>
