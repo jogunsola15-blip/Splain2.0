@@ -1,0 +1,11 @@
+.studio-intro{position:fixed;inset:0;z-index:1000;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;background:#0b0c10;color:#eff0ed;pointer-events:none;animation:intro-exit .55s cubic-bezier(.76,0,.24,1) 1.25s forwards}
+.studio-intro-logo{display:grid;place-items:center;width:104px;height:104px;border-radius:50%;background:#b5ed80;color:#121413;font:700 78px Arial,Helvetica,sans-serif;letter-spacing:-6px;padding-right:7px;animation:intro-logo .65s cubic-bezier(.2,.8,.2,1) both}
+.studio-intro-name{font:500 14px Arial,Helvetica,sans-serif;letter-spacing:4px;animation:intro-text .6s .15s both}
+.studio-intro-line{height:2px;width:120px;background:#30352f;overflow:hidden;border-radius:2px}
+.studio-intro-line::after{content:'';display:block;height:100%;background:#b5ed80;transform-origin:left;animation:intro-progress 1.1s ease both}
+.studio-intro-note{font:10px Arial,Helvetica,sans-serif;letter-spacing:1.5px;color:#9fa59e}
+@keyframes intro-logo{from{opacity:0;transform:translateY(15px) scale(.85)}to{opacity:1;transform:none}}
+@keyframes intro-text{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes intro-progress{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes intro-exit{to{opacity:0;visibility:hidden;transform:translateY(-25px)}}
+@media(prefers-reduced-motion:reduce){.studio-intro{display:none!important}}
